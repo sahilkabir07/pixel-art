@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    min-width: 35%;
+    border: 1px solid lightgray;
+    /* 1rem = 16px */
+    padding: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    /* gap: 0.625rem; */
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: purple;
+    color: white;
+}
+
+#grid {
+    display: grid;
+    margin: 10px;
+}
+
+#pixel {
+    background-color: white;
+    border: 1px solid lightgrey;
+}
